@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <title>First ajax
+        </title>
+       
+        <script>
+                function getNum(){
+               var  xmlhttp;
+              xmlhttp=new XMLHttpRequest();
+              xmlhttp.onreadystatechange=callback;
+
+                }
+                function callback(){
+               var  xmlhttp;
+             if(xmlhttp.readyState==4 && xmlhttp.status==200)
+             {
+document.getElementById('result').innerHTM=xmlhttp.responsehttp;
+
+             } 
+              
+                }
+                               </script>
+                               
+                
+        </head>
+        <body>
+         <div id='result'>   hello</div>
+         <input type="button" value="getvalue">
+     </body>
+        </html>
+       
